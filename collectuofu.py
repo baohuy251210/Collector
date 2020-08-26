@@ -50,7 +50,7 @@ def create_initcsv():
     data/uofucovidinit_timeline.csv
     data/uofucovid_timeline.csv
     """
-    init = '\n'.join(retrieve_covidpanel())
+    init = '|'.join(retrieve_covidpanel())
     # print(init)
     time = datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M')
     csv_name = './data/uofucovidinit_timeline.csv'
@@ -59,8 +59,35 @@ def create_initcsv():
         writer = csv.writer(csv_file)
         writer.writerow(field_names)
         writer.writerow([str(time), init])
+    print('NEW INIT Created, this will recreate csv files')
 
 
 # print(datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M'))
-create_initcsv()
+# create_initcsv()
 # print(retrieve_covidpanel())
+
+def updater_initcsv():
+    """
+    This updates the csv if the covid panel is different.
+    Could be useful if the html changes the order. (to redo the retriever)
+    """
+    init_new = '|'.join(retrieve_covidpanel())
+    time = datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M')
+    init_old = ''
+    # Read the current csv
+    with open('./data/uofucovidinit_timeline.csv', 'r') as csv_readfile:
+        reader = csv.DictReader(csv_readfile)
+        lastrow = list(reader)[-1]
+        init_old = lastrow['retrieved']
+
+    if (init_old != init_new):
+        print('Detected new data')
+        with open('./data/uofucovidinit_timeline.csv', 'a', newline='') as csv_file:
+            writer = csv.writer(csv_file)
+            writer.writerow([time, init_new])
+            print('New data updated')
+    else:
+        print('No new update detected')
+
+
+updater_initcsv()
