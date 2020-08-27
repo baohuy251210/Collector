@@ -9,3 +9,6 @@ echo.
 git add -A
 git commit -m "scheduled scraper"
 git push 
+echo.
+echo !!!Finished git commands
+pause

@@ -154,7 +154,7 @@ def main():
     print(pd.read_csv(
         './data/uofucovidinit_timeline.csv'))
 
-    time.sleep(2)  # Scraping ethics :-)
+    time.sleep(0.5)  # Scraping ethics :-)
 
     updater_datacsv()
     print(pd.read_csv('./data/uofucovid_timeline.csv'))
