@@ -21,3 +21,28 @@ Making git changes...
 [master 5999933] scheduled scraper
  2 files changed, 3 insertions(+), 122 deletions(-)
  rewrite log.txt (99%)
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-08-26 20:25:24
+
+---covid panel scrape---
+(full)No new update detected
+               time                                                                                                  retrieved
+0  2020-08-25 13:00       campus-wide self-reported|positive covid-19 cases:|august 18-24|38|62,000 people in campus community
+1  2020-08-26 17:36  campus-wide self-reported|positive covid-19 cases:|august 18-25|37 (-1)|62,000 people in campus community
+
+
+---cases scrape---
+(cases)No new update detected
+               time  self-reported cases
+0  2020-08-25 13:00                   38
+1  2020-08-26 19:02                   37
+
+Making git changes...
+
+[master 4a92ed2] scheduled scraper
+ 3 files changed, 26 insertions(+), 2 deletions(-)
+
+!!!Finished git commands
+Press any key to continue . . . 
