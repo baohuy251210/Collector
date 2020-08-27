@@ -1,7 +1,7 @@
 Starting uofu covid-19 web scraper...
 
 -------Scraping COVID-19 Data from UOFU---------- 
-2020-08-26 21:01:20
+2020-08-26 21:04:48
 
 ---covid panel scrape---
 (full)No new update detected
@@ -18,12 +18,3 @@ Starting uofu covid-19 web scraper...
 
 Making git changes...
 
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   log.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
