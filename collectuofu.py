@@ -125,7 +125,7 @@ def updater_datacsv():
     """
     This function updates the cases count csv file
     """
-    print('\n\n---cases scrape---')
+    print('---cases scrape---')
     csv_name = './data/uofucovid_timeline.csv'
     selfreport_cases_new = int(retrieve_covidpanel()[3].split()[0])
     time = datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M')
