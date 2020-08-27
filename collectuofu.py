@@ -146,7 +146,7 @@ def updater_datacsv():
 
 def main():
     # ---SETTINGS---
-    pd.set_option('display.max_colwidth', -1)
+    pd.set_option('display.max_colwidth', None)
     # ----------
     print("-------Scraping COVID-19 Data from UOFU---------- ")
     print(datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M:%S'))

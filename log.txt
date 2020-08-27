@@ -1,0 +1,50 @@
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-08-26 20:14:23
+
+---covid panel scrape---
+(full)No new update detected
+               time                                                                                                  retrieved
+0  2020-08-25 13:00       campus-wide self-reported|positive covid-19 cases:|august 18-24|38|62,000 people in campus community
+1  2020-08-26 17:36  campus-wide self-reported|positive covid-19 cases:|august 18-25|37 (-1)|62,000 people in campus community
+
+
+---cases scrape---
+(cases)No new update detected
+               time  self-reported cases
+0  2020-08-25 13:00                   38
+1  2020-08-26 19:02                   37
+
+Making git changes...
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   collectuofu.py
+	modified:   scraper.bat
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   collectuofu.py
+	modified:   scraper.bat
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Press any key to continue . . . 
+Press any key to continue . . . 
