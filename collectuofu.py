@@ -113,6 +113,8 @@ def updater_initcsv():
             writer = csv.writer(csv_file)
             writer.writerow([time, init_new])
             print('(full)New data updated')
+        print(pd.read_csv(
+            './data/uofucovidinit_timeline.csv'))
     else:
         print('(full)No new update detected')
 
@@ -140,6 +142,7 @@ def updater_datacsv():
             writer = csv.writer(csv_file)
             writer.writerow([time, selfreport_cases_new])
             print('(cases)New data updated')
+        print(pd.read_csv('./data/uofucovid_timeline.csv'))
     else:
         print('(cases)No new update detected')
 
@@ -151,13 +154,10 @@ def main():
     print("-------Scraping COVID-19 Data from UOFU---------- ")
     print(datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M:%S'))
     updater_initcsv()
-    print(pd.read_csv(
-        './data/uofucovidinit_timeline.csv'))
 
     time.sleep(0.5)  # Scraping ethics :-)
 
     updater_datacsv()
-    print(pd.read_csv('./data/uofucovid_timeline.csv'))
 
 
 if __name__ == "__main__":
