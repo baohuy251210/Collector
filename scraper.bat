@@ -6,6 +6,7 @@ C:\Users\baohu\anaconda3\envs\collector\python.exe "C:\Users\baohu\Desktop\Fall2
 echo.
 echo Making git changes...
 echo.
+git status
 git add -A
 git commit -m "scheduled scraper"
 git push 
