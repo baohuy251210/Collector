@@ -96,7 +96,7 @@ def updater_initcsv():
     This updates the csv if the covid panel is different.
     Could be useful if the html changes the order. (to redo the retriever)
     """
-    print('---covid panel scrape---')
+    print('\n---covid panel scrape---')
     init_new = '|'.join(retrieve_covidpanel())
     time = datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M')
     init_old = ''
@@ -122,7 +122,7 @@ def updater_datacsv():
     """
     This function updates the cases count csv file
     """
-    print('---cases scrape---')
+    print('\n\n---cases scrape---')
     csv_name = './data/uofucovid_timeline.csv'
     selfreport_cases_new = int(retrieve_covidpanel()[3].split()[0])
     time = datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M')
@@ -144,10 +144,16 @@ def updater_datacsv():
 
 
 def main():
+    # ---SETTINGS---
+    pd.set_option('display.max_colwidth', -1)
+    # ----------
     print("-------Scraping COVID-19 Data from UOFU---------- ")
     print(datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M:%S'))
     updater_initcsv()
+    print(pd.read_csv(
+        './data/uofucovidinit_timeline.csv'))
     updater_datacsv()
+    print(pd.read_csv('./data/uofucovid_timeline.csv'))
 
 
 if __name__ == "__main__":
