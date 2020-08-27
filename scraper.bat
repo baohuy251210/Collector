@@ -8,6 +8,5 @@ echo Making git changes...
 echo.
 git status
 git add .
-git commit -m "scheduled scraper commit"
+git commit -m "scheduled scraper"
 git push 
-pause
