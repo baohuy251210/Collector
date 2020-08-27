@@ -4,9 +4,4 @@ echo.
 cd C:\Users\baohu\Desktop\Fall2020\Code\Collector
 C:\Users\baohu\anaconda3\envs\collector\python.exe "C:\Users\baohu\Desktop\Fall2020\Code\Collector\collectuofu.py"
 echo.
-echo Making git changes...
-echo.
-git commit -a -m "scheduled scraper"
-git push 
-echo.
-echo !!!Finished git commands
+echo Finished scanning for new data.
