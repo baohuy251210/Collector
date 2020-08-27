@@ -31,7 +31,8 @@ def retrieve_covidpanel():
     '''
     url = 'https://coronavirus.utah.edu/'
     response = requests.get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
+    text = response.text.replace('\xa0', '')
+    soup = BeautifulSoup(text, "html.parser")
     # finderstring is finding an object that might indicate the covid-19 counts:
     finder = (soup.find(string=re.compile(
         'positive COVID-19 cases', re.IGNORECASE)).parent)
