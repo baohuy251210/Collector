@@ -1,7 +1,7 @@
 Starting uofu covid-19 web scraper...
 
 -------Scraping COVID-19 Data from UOFU---------- 
-2020-08-26 21:16:39
+2020-08-26 21:18:57
 
 ---covid panel scrape---
 (full)No new update detected

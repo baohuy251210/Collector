@@ -1,7 +1,7 @@
-@echo off 
 echo Making git changes...
-echo.
+git status
 git add -A
 git commit -m "scheduled scraper"
 git push 
 echo Finished git commands!
+pause
