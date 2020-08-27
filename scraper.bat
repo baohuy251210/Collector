@@ -7,8 +7,7 @@ echo.
 echo Making git changes...
 echo.
 git status
-git add -A
-git commit -m "scheduled scraper"
+git commit -a -m "scheduled scraper"
 git push 
 echo.
 echo !!!Finished git commands
