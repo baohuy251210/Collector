@@ -12,6 +12,7 @@ import re
 import pandas as pd
 import csv
 from pytz import timezone
+import time
 
 
 def mainpage_status():
@@ -152,6 +153,9 @@ def main():
     updater_initcsv()
     print(pd.read_csv(
         './data/uofucovidinit_timeline.csv'))
+
+    time.sleep(2)  # Scraping ethics :-)
+
     updater_datacsv()
     print(pd.read_csv('./data/uofucovid_timeline.csv'))
 
