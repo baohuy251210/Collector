@@ -288,3 +288,14 @@ Starting uofu covid-19 web scraper...
 (cases)No new update detected
 
 Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-01 14:30:03
+
+---covid panel scrape---
+(full)No new update detected
+---cases scrape---
+(cases)No new update detected
+
+Finished scanning for new data.
