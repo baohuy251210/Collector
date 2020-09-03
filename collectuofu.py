@@ -98,7 +98,7 @@ def updater_initcsv():
     This updates the csv if the covid panel is different.
     Could be useful if the html changes the order. (to redo the retriever)
     """
-    print('\n---covid panel scrape---')
+    print('\n----covid panel scrape (RAW)----')
     init_new = '|'.join(retrieve_covidpanel())
     time = datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M')
     init_old = ''
@@ -109,21 +109,21 @@ def updater_initcsv():
         init_old = lastrow['retrieved']
 
     if (init_old != init_new):
-        print('(full)Detected new data')
         with open('./data/uofucovidinit_timeline.csv', 'a', newline='') as csv_file:
             writer = csv.writer(csv_file)
             writer.writerow([time, init_new])
-            print('(full)New data updated')
+            print('(Raw)New data updated')
         print(pd.read_csv(
             './data/uofucovidinit_timeline.csv'))
     else:
-        print('(full)No new update detected')
+        print('(Raw)No new update detected')
 
 
 # updater_initcsv()
 
 def updater_datacsv():
     """
+    (Unused)
     This function updates the cases count csv file
     """
     print('---cases scrape---')
@@ -156,9 +156,13 @@ def main():
     print(datetime.now(timezone('America/Denver')).strftime('%Y-%m-%d %H:%M:%S'))
     updater_initcsv()
 
-    time.sleep(0.5)  # Scraping ethics :-)
-
-    updater_datacsv()
+    # time.sleep(0.5)  # Scraping ethics :-)
+    """[new update]
+    Data csv is not in use anymore since the data panel (from the page) 
+    has a weird way of updating cases.
+    datacleaner.py will be the main source to generate the processed data
+    """
+    # updater_datacsv()
 
 
 if __name__ == "__main__":
