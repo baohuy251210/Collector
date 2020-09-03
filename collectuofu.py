@@ -114,7 +114,7 @@ def updater_initcsv():
             writer.writerow([time, init_new])
             print('(Raw)New data updated')
         print(pd.read_csv(
-            './data/uofucovidinit_timeline.csv'))
+            './data/uofucovidinit_timeline.csv').tail(3))
     else:
         print('(Raw)No new update detected')
 
