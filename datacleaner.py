@@ -6,6 +6,7 @@ Clean and process the init raw panel (aka uofucovidinit_timeline.csv)
 import csv
 import pandas as pd
 from datetime import datetime
+import dataplotter
 
 
 def cases_process():
@@ -38,6 +39,7 @@ def cases_process():
             writer.writerow([new_date, new_cases])
             print('(cleaner) New cases processed:')
             print(new_date, " | ", new_cases)
+            dataplotter.plot_cases()
     else:
         print('(cleaner)No new cases detected')
 
