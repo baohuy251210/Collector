@@ -91,3 +91,9 @@ Starting data cleaner...
 2020-09-04  |  128
 
 Finished data processing
+Starting data cleaner...
+
+----data preprocessing (cumulative counts)-----
+(cleaner)No new cases detected
+
+Finished data processing
