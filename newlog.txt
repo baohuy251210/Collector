@@ -312,3 +312,54 @@ Starting data cleaner...
 (cleaner)No new cases detected
 
 Finished data processing
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-11 09:00:03
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-11 12:30:03
+
+----covid panel scrape (RAW)----
+(Raw)New data updated
+                time                                                                                                                                                         retrieved
+11  2020-09-04 14:30    campus-wide* self-reported|positive covid-19 cases:|august 27-september 3|86|cumulative reported cases since 8/15/2020:|128|*62,000 people in campus community
+12  2020-09-09 12:30    campus-wide* self-reported|positive covid-19 cases:|august 31-september 6|96|cumulative reported cases since 8/15/2020:|166|*62,000 people in campus community
+13  2020-09-11 12:30  campus-wide* self-reported|positive covid-19 cases:|september 3-september 9|77|cumulative reported cases since 8/15/2020:|182|*62,000 people in campus community
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-11 14:30:11
+
+----covid panel scrape (RAW)----
+(Raw)New data updated
+                time                                                                                                                                                          retrieved
+12  2020-09-09 12:30     campus-wide* self-reported|positive covid-19 cases:|august 31-september 6|96|cumulative reported cases since 8/15/2020:|166|*62,000 people in campus community
+13  2020-09-11 12:30   campus-wide* self-reported|positive covid-19 cases:|september 3-september 9|77|cumulative reported cases since 8/15/2020:|182|*62,000 people in campus community
+14  2020-09-11 14:30  campus-wide* self-reported|positive covid-19 cases:|september 3-september 10|90|cumulative reported cases since 8/15/2020:|195|*62,000 people in campus community
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-11 18:00:03
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting data cleaner...
+
+----data preprocessing (cumulative counts)-----
+(cleaner) New cases processed:
+2020-09-11  |  195
+
+Finished data processing

@@ -5,4 +5,3 @@ git add -A
 git commit -m "scheduled commits"
 git push 
 echo Finished git commands!
-pause
