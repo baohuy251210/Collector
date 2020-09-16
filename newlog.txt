@@ -530,3 +530,12 @@ Starting data cleaner...
 2020-09-15  |  241
 
 Finished data processing
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-16 09:00:03
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
