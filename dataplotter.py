@@ -13,7 +13,7 @@ def plot_cases():
                     text=df['cases'], textposition='bottom center')])
     fig.update_layout(
         template="plotly_white",
-        xaxis_range=['2020-08-25', '2020-09-30'],
+        xaxis_range=['2020-08-24', '2020-09-30'],
         title={
             'text': "Covid-19 Cases at the U Campus",
             'y': 0.95,
