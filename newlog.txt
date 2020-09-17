@@ -539,3 +539,41 @@ Starting uofu covid-19 web scraper...
 (Raw)No new update detected
 
 Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-16 12:30:02
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-16 14:30:02
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-16 18:00:02
+
+----covid panel scrape (RAW)----
+(Raw)New data updated
+                time                                                                                                                                                           retrieved
+14  2020-09-11 14:30   campus-wide* self-reported|positive covid-19 cases:|september 3-september 10|90|cumulative reported cases since 8/15/2020:|195|*62,000 people in campus community
+15  2020-09-15 14:30   campus-wide* self-reported|positive covid-19 cases:|september 8-september 14|98|cumulative reported cases since 8/15/2020:|241|*62,000 people in campus community
+16  2020-09-16 18:00  campus-wide* self-reported|positive covid-19 cases:|september 9-september 15|110|cumulative reported cases since 8/15/2020:|258|*62,000 people in campus community
+
+Finished scanning for new data.
+Starting data cleaner...
+
+----data preprocessing (cumulative counts)-----
+(cleaner) New cases processed:
+2020-09-16  |  258
+
+Finished data processing
