@@ -703,3 +703,45 @@ Starting data cleaner...
 (cleaner)No new cases detected
 
 Finished data processing
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-20 09:00:03
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-20 12:30:02
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-20 14:30:02
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-20 18:00:02
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting data cleaner...
+
+----data preprocessing (cumulative counts)-----
+(cleaner)No new cases detected
+
+Finished data processing
