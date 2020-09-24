@@ -834,3 +834,48 @@ Starting data cleaner...
 (cleaner)No new cases detected
 
 Finished data processing
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-23 09:00:02
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-23 12:30:02
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-23 14:30:02
+
+----covid panel scrape (RAW)----
+(Raw)New data updated
+                time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           retrieved
+16  2020-09-16 18:00                                                                                                                                                                                                                                                                                                                                                                                                  campus-wide* self-reported|positive covid-19 cases:|september 9-september 15|110|cumulative reported cases since 8/15/2020:|258|*62,000 people in campus community
+17  2020-09-21 18:00                                                                                                                                                                                                                                                                                                                                                                                                 campus-wide* self-reported|positive covid-19 cases:|september 13-september 20|130|cumulative reported cases since 8/15/2020:|324|*62,000 people in campus community
+18  2020-09-23 14:30  university of utah case counts|the table below includes reported positive covid-19 cases among university of utah staff, faculty and students.students who also are employees of the university are only reported in the student number to avoid double counting. the university of utah has more than 32,000 students (3,400 living in university-owned facilities) and 30,000 employees. approximately 75% of employees continue to work remotely but have self-reported to authorize sick leave|.|this table is updated daily by 1 p.m., monday through friday.
+
+Finished scanning for new data.
+Starting uofu covid-19 web scraper...
+
+-------Scraping COVID-19 Data from UOFU---------- 
+2020-09-23 18:00:02
+
+----covid panel scrape (RAW)----
+(Raw)No new update detected
+
+Finished scanning for new data.
+Starting data cleaner...
+
+----data preprocessing (cumulative counts)-----
+
+Finished data processing
